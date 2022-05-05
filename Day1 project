@@ -1,9 +1,11 @@
-#1. Create a greeting for your program.
+  #1. Create a greeting for your program.
 print('Hello new user!')
 
-#2. Ask the user for the city that they grew up in.
+  #2. Ask the user for the city that they grew up in.
 city_name = input('Please tell me the city you grew up in: ')
-#3. Ask the user for the name of a pet.
+  #3. Ask the user for the name of a pet.
 pet_name = input('Please tell me the name of a pet! Yours or anyones!: ')
-#4. Combine the name of their city and pet and show them their band name.
+  #4. Combine the name of their city and pet and show them their band name.
 band_name= print(f"Your band name is {city_name.title()} {pet_name.title()}!")
+  #string concat band name 
+band_name = print("Your band name could be " + city_name.title() + " " + pet_name.title() + "!")
