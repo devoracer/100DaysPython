@@ -15,6 +15,8 @@ total_people = int(input("How many people are splitting the bill? "))
 total_per_person = (total_bill / total_people)
 percentage_tip = (percentage_tip / 100) + 1
 #print(percentage_tip)
-print(total_per_person)
+#print(total_per_person)
 total_with_tip = round(total_per_person * percentage_tip, 2)
-print(f"Total per person is:  ${total_with_tip}")
+
+print(f"Total per person is:  ${total_with_tip:.2f}")
+#:.2f to get 2 decimal places
