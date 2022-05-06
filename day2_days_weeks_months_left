@@ -1,0 +1,20 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+#figure out total days, weeks, months, tx, ty, tz
+tx = 32850
+ty = 4680
+tz = 1080
+
+age_in_days = int(age) * 365
+age_in_weeks = int(age) * 52
+age_in_months = int(age) * 12
+
+#print(age_in_days)
+days_left = tx - age_in_days
+weeks_left = ty - age_in_weeks
+months_left = tz - age_in_months   
+
+print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left.")
