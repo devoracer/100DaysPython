@@ -1,0 +1,22 @@
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+#change height and weight to floats
+height = float(height)
+weight = float(weight)
+#converting to american units - althought the answer will be the same
+height_american = height*39.3701
+weight_american = weight*2.20462
+#calculation
+bmi = int((weight / height**2))
+bmi_american = int((weight_american / height_american**2)*703)
+print(f"Your BMI = {bmi}")
+print(f"Your BMI in american terms = {bmi_american}")
+
+#checking to see if american conversion is correct
+print(f"{height_american} inches")
+print(f"{weight_american} pounds")
