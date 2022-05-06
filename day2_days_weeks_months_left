@@ -12,6 +12,12 @@ age_in_days = int(age) * 365
 age_in_weeks = int(age) * 52
 age_in_months = int(age) * 12
 
+#or this way...
+# years_remaining = 90 - age_as_int
+# days_remaining = years_remaining * 365
+# weeks_remaining = years_remaining * 52
+# days_remaining = years_remaining * 365
+
 #print(age_in_days)
 days_left = tx - age_in_days
 weeks_left = ty - age_in_weeks
