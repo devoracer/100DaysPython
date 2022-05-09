@@ -12,3 +12,5 @@ random_number = random.randint(0, num_items-1)
 
 random_payer = names[random_number]
 print(f"{random_payer} is going to buy the meal today!")
+
+random.choice(names) #will also give a random name from the names list
